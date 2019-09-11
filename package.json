@@ -1,0 +1,19 @@
+{
+  "name": "utopia",
+  "version": "1.0.0",
+  "description": "API Service for Utopia-Airlines online transactions",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "core-util-is": "^1.0.2",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.19.2"
+  },
+  "scripts": {
+    "start": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ferhat Aydogan",
+  "license": "ISC"
+}
